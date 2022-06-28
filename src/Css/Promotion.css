@@ -1,0 +1,230 @@
+.promotion-bg{
+    background-color: rgba(242, 240, 255, 1); 
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+  }
+  .promotionTD{
+    margin: auto;
+    display: flex;
+    height: 600px;
+    width: 100%;
+  }
+  .romotionTD-bg{
+    display: flex;
+  }
+    .light{
+      position: relative;
+      width: 150px;
+      left: 180px;
+    }
+    .sofabg{
+      position: relative;
+      bottom: 400px;
+      left: 950px;
+    }
+    .sofa {
+      width: 550px;
+    }
+    .bg{
+      display: block;
+      margin-top: 100px;
+      margin-left: auto;
+    }
+    .promotionBNL{
+      position: absolute;
+      margin: auto;
+    }
+      .BF{
+        margin: auto;
+        font-size: 16px;
+        color: rgba(251, 46, 134, 1);
+        font-family: 'Lato';
+        font-style: normal;
+        position: relative;
+        height: 28px;
+        bottom: 300px;
+        left: 375px;
+      }
+      .NF{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Josefin Sans';
+        position: relative;
+        width: 450px;
+        height: 140px;
+        left: 370px;
+        bottom: 330px;
+      }
+      .LD{
+        font-size: 16px;
+        color: #8A8FB9;
+        position: relative;
+        width: 450px;
+        height: 56px;
+        left: 370px;
+        bottom: 400px;
+      }
+      .SN {
+        position: relative;
+        background-color: rgba(251, 46, 134, 1);
+        color: rgba(255, 255, 255, 1);
+        size: 17px;
+        font-family: 'Josefin Sans';
+        font-size: 17px;
+        line-height: 20px;
+        width: 140px;
+        height: 45px;
+        border: 0px;
+        bottom: 50px;
+        left: 375px;
+      }
+/* mobile */
+@media only screen and (max-width: 599px){
+  .promotion-bg{ 
+    margin:20px auto;
+    max-width:599px;
+    width: 100%;
+  }
+  .promotionTD{
+    height: 170px;
+    justify-content: center;
+  }
+  .light{
+    width: 40px;
+    left: -75px;
+    top: -10px;
+  }
+  .sofa{
+    width: 120px;
+  }
+  .sofabg{
+    bottom: 186px;
+    left: 90px;
+  }
+  .BF{
+    font-size: 5px;
+    left: -20px;
+    bottom: 110px;
+  }
+  .NF{
+    font-size: 10px;
+    left: -20px;
+    width: 120px;
+    bottom: 140px;
+  }
+  .LD{
+    font-size: 8px;
+    left: -20px;
+    width: 120px;
+    bottom: 268px;
+  }
+  .SN{
+    font-size: 10px;
+    line-height: 20px;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    top: -25px;
+    left: -20px;
+  }
+}
+/*-------tablet------*/
+@media only screen and (min-width: 600px) and (max-width:1023px){
+  .promotion-bg{ 
+    max-width: 1023px;
+    margin:20px auto;
+    width: 100%;
+  }
+  .promotionTD{
+    justify-content: center;
+    height: 250px;
+  }
+  .light{
+    width: 80px;
+    left: -160px;
+    top: -10px;
+  }
+  .sofa{
+    width: 200px;
+  }
+  .sofabg{
+    bottom: 270px;
+    left: 190px;
+  }
+  .BF{
+    font-size: 10px;
+    top: -165px;
+    left: -55px;
+  }
+  .NF{
+    font-size: 15px;
+    left: -55px;
+    top: -190px;
+    width: 200px;
+  }
+  .LD{
+    font-size: 10px;
+    left: -55px;
+    top: -310px;
+    width: 230px;
+  }
+  .SN{
+    font-size: 10px;
+    line-height: 20px;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    top: -50px;
+    left: -55px;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1400px){
+  .promotion-bg{ 
+    max-width: 1400px;
+    margin:20px auto;
+    width: 100%;
+  }
+  .promotionTD{
+    justify-content: center;
+    height: 350px;
+  }
+  .light{
+    width: 90px;
+    left: -240px;
+    top: -10px;
+  }
+  .sofa{
+    width: 300px;
+  }
+  .sofabg{
+    bottom: 300px;
+    left: 275px;
+  }
+  .BF{
+    font-size: 20px;
+    left: -140px;
+    top: -180px;
+  }
+  .NF{
+    font-size: 20px;
+    left: -140px;
+    top: -190px;
+    width: 250px;
+  }
+  .LD{
+    font-size: 18px;
+    left: -140px;
+    top: -300px;
+    width: 415px;
+  }
+  .SN{
+    font-size: 15px;
+    line-height: 20px;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    top: 10px;
+    left: -140px;
+  }
+}

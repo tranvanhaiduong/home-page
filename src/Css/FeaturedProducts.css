@@ -1,0 +1,192 @@
+.FeaturedProducts{
+    margin: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+  } 
+    .kenang{
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 100px;
+    }
+      .kenngn{
+        width: 120px;
+      }
+    .Featured{
+      color: rgba(26, 11, 91, 1);
+      text-align: center;
+      font-family: 'Josefin Sans';
+      font-size: 25px;
+      line-height: 100px;
+    }
+    .Products{
+      display: flex;
+      text-align: center;
+      line-height: 65px;
+      flex-wrap: wrap;
+      margin-right: 5%;
+    }
+    .Products >*{
+      flex: 1 1 20%;
+    }
+      .char1{
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+      .img1{
+        margin-top: 20px;
+        margin-left: 2px;
+        margin-bottom: 25px;
+      }
+        .char1img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+        .char1back{
+          line-height: 1%;
+        }
+          .char1F{
+            color: #FB2E86;
+            font-size: 20px;
+          }
+          .char1ND{
+            font-family: 'Josefin Sans';  
+            font-size: 16px;
+            color: #151875;
+          }
+      .char2{
+        width: 250px;
+        height: 400px;
+        background-color: rgba(47, 26, 196, 1);
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+        .char2img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+        .char2icon{
+          position: absolute;
+        }
+        .icon{
+          position: relative;
+          bottom: 20px;
+          height: 0px;
+          /* background-color: ; */
+        }
+          .buy{
+            position: relative;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(47, 26, 196, 1);
+          }
+          .tym{
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            color:  #469bef;
+          }
+          .zoom{
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            color:  #469bef;
+          }
+          .img2{
+            margin-left: 2px;
+            margin-bottom: 10px;
+          }
+          .btnchar2{
+            text-align: center;
+          }
+          .char2btn{
+            position: relative;
+            padding: 8px;
+            background-color: rgba(8, 209, 95, 1);
+            color: white;
+            border: 0px;
+            font-size: 14px;
+            border-radius: 4px;
+            top:190px
+          }
+            .char2btn:hover{
+              background-color: rgb(6, 177, 80);
+            }
+        .char2back{
+          line-height: 1%;
+        }
+          .char2F{
+            color: rgba(255, 255, 255, 1);
+            font-size: 20px;
+          }
+          .char2ND{
+            font-family: 'Josefin Sans';  
+            font-size: 16px;
+            color: rgba(255, 255, 255, 1);
+          }
+      .char3{
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+        .img3{
+          margin-top: 20px;
+          margin-left: 2px;
+          margin-bottom: 25px;
+        }
+        .char3img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+          .char3back{
+            background-color: white;
+            line-height: 1%;
+          }
+      .char4{
+        width: 250px;
+        height: 350px;
+        background-color: white;
+        margin-left: 5%;
+      }
+      .img4{
+        margin-top: 30px;
+        margin-left: 2px;
+        margin-bottom: 40px; 
+      }
+        .char4img{
+          margin-top: 10px;
+          background-color: rgba(247, 247, 247, 1);
+        }
+        .char4back{
+          background-color: white;
+          line-height: 1%;
+        }
+
+  /* mobile */
+  @media only screen and (max-width:599px) {
+    .Featured {
+      font-size: 10px;
+      line-height: 20px;
+    } 
+    .char1,.char2,.char3,.char4 {
+      height: 380px;
+    }
+    .char1ND,.char2ND {
+      font-size: 10px;
+    }
+    .char1F,.char2F {
+      font-size: 15px;
+    }
+  }
+  /* tablet */
+  @media only screen and (min-width:600px) and (max-width:1023px){
+    .FeaturedProducts{
+      max-width: 600px;
+    }
+  }

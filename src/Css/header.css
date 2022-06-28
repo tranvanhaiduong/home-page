@@ -1,0 +1,186 @@
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+  }
+  .header_nar_On{
+    background-color: #7E33E0;
+    max-width: 1920px;
+    color: white;
+  }
+    .on {
+      display: flex;
+      font-family: 'Josefin Sans';
+      min-width: min-content;
+    }
+      .L {
+        margin: 10px;
+        margin-top: 1%;
+      }
+      .R {
+        margin-left: 5px
+      }
+      .gmail {
+        margin-left: 200px;
+        font-size: 16px;
+        }
+      .phone {
+        margin-left: 10px;
+        font-size: 16px;
+      }
+      .Egl {
+        margin-left: 30%;
+        margin-right: 5px;
+        font-size: 16px;
+      }
+      .USD {
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      .Lg {
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      .Wl{
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      .shop{
+        margin-right: 150px;
+        font-size: 16px;
+      }
+  .header_nar_Off{
+    font-size: 20px;
+    font-family: 'lato';
+    font-style: normal;
+    text-align: center; 
+    width: 100%;
+  }
+    .Off{
+      display: inline-flex;
+      font-size: 20px;
+    }
+      .Hekto{
+        margin-left: 10px;
+        margin-top: 20px;
+        /* width: 100px;
+        height: 40px; */
+      }
+      .Off-btn{
+        width: 50px;
+        height: 35px;
+        background-color:rgba(251, 46, 134, 1);
+        border: 0px solid white; 
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 4px;
+      }
+      .IP{
+        text-align: left;
+        width: 250px;
+        margin-left: 110px;
+        margin-top: 25px;
+        padding: 5px;
+      }
+      .Off-btn:hover, .OneED:hover, .SN:hover {
+        background:rgb(241, 13, 112);
+      }
+      .home{
+        margin-left: 90px;
+        color: rgba(251, 46, 134, 1);
+      }
+      .C{
+        margin: 5px;
+      }
+      .AF{
+        margin-left: 30px;
+        font-family: 'Lato';
+        font-style: normal;
+        color:  rgba(13, 14, 67, 1);
+      }
+  .mobile_circle{
+    margin: auto;
+    margin-left: 20px;
+    font-size: 25px;
+    display: none;
+    height: 35px;
+  }
+  .mobile_justify{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: none;
+  }
+/*------mobile-------*/
+    @media (max-width: 599px) {
+      .header{
+        max-width: 599px;
+      }
+      .on {
+        display: none;
+      }
+      .mobile_circle {
+        display: block;
+      }
+    }
+    @media (max-width: 599px) {
+      .mobile_justify{
+        display: block;
+      }
+      .header_nar_Off{
+        text-align: left;
+        margin-left: 0px;
+      }
+      .AF,.home,.header_nar_Off_R {
+        display: none;
+      }
+    }
+/*-------tablet------*/
+  .tablet_circle{
+    margin: auto;
+    margin-left: 40px;
+    font-size: 25px;
+    display: none;
+    height: 35px;
+  }
+    @media only screen and (min-width: 600px) and (max-width: 1023px) {
+      .tablet_circle{
+        display: block;
+      }
+      .on {
+        display: none;
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 1023px) {
+      .mobile_justify{
+        display: block;
+      }
+      .AF,.home {
+        display: none;
+      }
+      .header_nar_Off_R{
+        margin-left: -50px;
+      }
+    }
+ /*-------PC-------*/
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+      .gmail{
+        margin-left: 80px;
+      }
+      .Egl{
+        margin-left: 20%;
+      }
+      .Hekto{
+        margin-left: 20px;
+      }
+      .home{
+        margin-left: 30px;
+      }
+      .AF{
+        margin-left: 10px;
+      }
+      .IP{
+        margin-left: 50px;
+      }
+    }
+

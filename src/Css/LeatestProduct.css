@@ -1,0 +1,316 @@
+.LeatestProduct{
+    margin: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+  }
+    .lpts{
+      margin: auto;
+      color: rgba(21, 24, 117, 1);
+      text-align: center;
+      font-family: 'Josefin Sans';
+      font-size: 35px;
+      line-height: 30px;
+      height: 40px;
+    }
+    .Nlpts{
+      display: flex;
+      justify-content : center;
+      line-height: 30px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-size: 18px;
+    }
+      .NA{
+        color: rgba(251, 46, 134, 1);
+        text-decoration: underline;
+      }
+      .BE{
+        color:#151875;
+        margin-left: 50px;
+      }
+    .Product{
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 15%;
+      margin-right: 10%;
+    }
+    .Product >* {
+      flex: 1 1 30%;
+    }
+      .Product1{
+        margin: auto;
+        width: 360px;
+        height: 306px;
+        margin-top: 40px;
+      /* flex-basis: 100%; */
+      }
+      .Product2{
+        margin: auto;
+        width: 360px;
+        height: 306px;
+        margin-top: 40px;
+      }
+        .productNSG{
+          display: flex;
+          font-size: 18px;
+        }
+          .productName{
+            color: rgba(21, 24, 117, 1);
+            font-family: 'Josefin Sans';
+            text-decoration: underline rgba(238, 239, 251, 1);
+          }
+          .priceSale{
+            color: rgba(21, 24, 117, 1);
+            font-family: 'Josefin Sans';
+            margin-left: 50px;
+          }
+          .priceGoc{
+            font-size: 16px;
+            color: rgba(251, 36, 72, 1);
+            font-family: 'Josefin Sans';
+            margin-left: 10px;
+            padding-top: 3px;
+            text-decoration: line-through;
+          }
+        .productImg{
+          background-color:rgba(247, 247, 247, 1);
+          width: 310px;
+          height: 269.96px;
+        }
+        .productCraff1{
+          width: 223px;
+          height: 229px;
+          margin-top: 10px;
+        }
+        .productImg2{
+          background-color:rgba(255, 255, 255, 1);  
+          width: 310px;
+          height: 269.96px;
+        }
+        .productCraff2{
+          margin-top: 40px;
+          width: 223px;
+          height: 229px;
+          margin-left: 40px;
+          margin-top: 10px; 
+        }
+        .Product2t{
+          position: absolute;
+        }
+        .Product2icon{
+          display: block;
+          position: relative;
+          bottom: 260px;
+          right: 10px;
+        }
+          .buyP{
+            position: relative;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(47, 26, 196, 1);
+            top: 20px;
+          }
+          .tymP{
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            color:#469bef;
+            top: 60px;
+            right: 40px;
+          }
+          .zoomP{
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px;
+            color:  #469bef;
+            top:100px;
+            right: 80px;
+          }
+        .Product2ImgSale{
+          position:relative;
+          flex-wrap: wrap;
+          bottom: 410px;
+          right: 20px;
+        }
+  /* mobile */
+@media only screen and (max-width:599px) {
+  .LeatestProduct{
+    max-width: 330px;
+  }
+  .Product{
+    margin-left: 10%;
+    margin-right: 10px;
+  }
+  .lpts{
+    font-size: 21px;
+  }
+  .Nlpts{
+    font-size: 10px;
+  }
+  .BE{
+    margin-left: 20px;
+  }
+  .Product1{
+    width: 140px;
+    height: 140px;
+    margin-top: 15px;
+  }
+  .productImg{
+    width: 120px;
+    height: 100px;
+  }
+  .productCraff1{
+    width: 80px;
+    height: 85px;
+    margin-top: 10px;
+  }
+  .productNSG{
+    font-size: 12px;
+    width: 100px;
+  } 
+    .priceSale{
+      margin-left: 10px;
+    }
+    .priceGoc{
+      font-size: 10px;
+    }
+    .Product2{
+      width: 140px;
+      height: 140px;
+      margin-top: 15px;
+    }
+    .productImg2{
+      width: 120px;
+      height: 100px;
+    }
+    .productCraff2{
+      width: 80px;
+      height: 85px;
+      margin-top: 10px;
+    }
+    .productNSG{
+      font-size: 12px;
+      width: 100px;
+    }
+      .buyP{
+        font-size: 10px;
+        font-weight: 100;
+        top: 110px;
+        left: 20px;
+      }
+      .tymP{
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px;
+        top: 130px;
+        right: 10px;
+      }
+      .zoomP{
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px;
+        top:150px;
+        right: 40px;
+      }
+    .Product2ImgSale{
+      bottom: 220px;
+      right: 5px;
+    }
+    .Product2Img{
+      width: 20px;
+      height: 10px;
+    }
+}
+  /* tablet */
+@media only screen and (min-width:600px) and (max-width:1023px) {
+  .LeatestProduct{
+    max-width: 600px;
+  }
+  .Product{
+    margin-left: 10%;
+    margin-right: 10px;
+  }
+  .lpts{
+    font-size: 25px;
+  }
+  .Nlpts{
+    font-size: 15px;
+  }
+  .BE{
+    margin-left: 20px;
+  }
+  .Product1{
+    width: 200px;
+    height: 200px;
+  }
+  .productImg{
+    width: 200px;
+    height: 180px;
+  }
+  .productCraff1{
+    width: 150px;
+    height: 165px;
+    margin-top: 0px;
+  }
+  .productNSG{
+    margin-left: 10px;
+    font-size: 12px;
+    width: 100px;
+  } 
+    .priceSale{
+      margin-left: 70px;
+    }
+    .priceGoc{
+      font-size: 10px;
+    }
+    .Product2{
+      width: 200px;
+      height: 200px;
+    }
+    .productImg2{
+      width: 200px;
+      height: 180px;
+    }
+    .productCraff2{
+      width: 150px;
+      height: 165px;
+      margin-top: 10px; 
+    }
+    .productNSG{
+      font-size: 12px;
+      width: 100px;
+    }
+      .buyP{
+        font-size: 15px;
+        font-weight: 100;
+        top: 80px;
+        left: 20px;
+      }
+      .tymP{
+        font-size: 15px;
+        font-weight: 100;
+        padding: 10px;
+        top: 110px;
+        right: 15px;
+      }
+      .zoomP{
+        font-size: 15px;
+        font-weight: 100;
+        padding: 10px;
+        top: 140px;
+        right: 50px;
+      }
+    .Product2ImgSale{
+      bottom: 300px;
+      right: 20px;
+    }
+    .Product2Img{
+      width: 60px;
+      height: 30px;
+    }
+}
